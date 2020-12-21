@@ -1,0 +1,31 @@
+@font-face 
+{
+	font-family: Roboto_reg;
+    src: url(fonts/Roboto-Regular.ttf);
+
+  }
+
+
+ .roboto_bold
+ {
+     font-family: Roboto-Bold !important;
+ } 
+
+ .roboto_bold
+ {
+     font-family: Roboto-Medium !important;
+ } 
+
+ .roboto_reg
+ {
+     font-family: Roboto-Regular !important;
+ } 
+
+/* #10c9c3 */
+
+
+.class first_bg
+{
+
+    background-image: url();
+}
