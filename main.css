@@ -1,11 +1,14 @@
 @font-face 
-{
+  {
 	font-family: Roboto_reg;
     src: url(fonts/Roboto-Regular.ttf);
 
   }
 
 
+  .video_style {
+    margin-left: 270px;
+}
  .roboto_bold
  {
      font-family: Roboto-Bold !important;
@@ -16,16 +19,179 @@
      font-family: Roboto-Medium !important;
  } 
 
- .roboto_reg
+
+ .six_style
+ {
+    padding-top: 20px;
+    padding-left: 650px;    
+ }
+
+
+ .seven_style
+ {
+ 
+    text-align: center;
+    padding-top: 35px;
+
+ }
+
+ .six_style h5
+ {
+    text-shadow: black;
+ }
+
+ .Roboto_reg
  {
      font-family: Roboto-Regular !important;
  } 
 
-/* #10c9c3 */
+*{
+    font-family: Roboto;
+}
+
+.firstext_style
+{
+  margin-top: 150px;
+}
 
 
-.class first_bg
+.btn_style
+{
+    background-color: #10c9c3;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.nav-style
+{
+    color: black;
+    padding: 15px;
+    padding-left: 15px;
+    margin: 15px;
+}
+
+
+.nav-style1
+{
+    margin-left: 250px;
+}
+
+
+.logo-style
+{
+margin-top: 28px;
+padding-left: 250px;
+}
+
+
+.navbar-nav a:hover
+{
+color: #10c9c3; 
+}
+
+
+.sec_style {
+    margin-top: 30px;
+    padding: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.progress_sec {
+    margin-top: 93px;
+    padding-left: 50px;
+    padding: 95px;
+}
+
+.five_bg {
+    background-color: #10c9c3;
+    height: 200px;
+    padding-top: 70px;
+}
+
+.card_img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sec_style2
+{
+ padding-left: 650px;
+ margin-bottom: 35px;
+}
+
+.signature_style
+{
+text-align: center;
+padding-left: 650px;
+}
+
+
+
+
+.img_style
+{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 50px;
+}
+
+.first_sec
+{
+   margin-top: 0px;
+   padding-bottom: 50px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px)
+{
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .nav-style1 {
+        margin-left: 87px;
+    }
+
+    .logo-style {
+        margin-top: 31px;
+        padding-left: 190px;
+    }
+
+    .sec_style2 {
+        padding-left: 500px;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px)
 {
 
-    background-image: url();
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 575px)
+{
+
+
+
 }
