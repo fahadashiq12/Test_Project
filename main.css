@@ -6,6 +6,11 @@
   }
 
 
+  .first_bg
+  {
+    background-image: url(/Img/blog-banner.png);
+  }
+
   .video_style {
     margin-left: 270px;
 }
@@ -23,8 +28,14 @@
  .six_style
  {
     padding-top: 20px;
-    padding-left: 650px;    
+    padding-left: 676px;    
  }
+
+
+ .nav-style1
+{
+    margin-left: 235px;
+}
 
 
  .seven_style
@@ -72,18 +83,11 @@
 }
 
 
-.nav-style1
-{
-    margin-left: 250px;
-}
-
-
 .logo-style
 {
 margin-top: 28px;
 padding-left: 250px;
 }
-
 
 .navbar-nav a:hover
 {
@@ -98,16 +102,20 @@ color: #10c9c3;
     text-align: center;
 }
 
-.progress_sec {
-    margin-top: 93px;
-    padding-left: 50px;
-    padding: 95px;
+.progress_sec 
+{
+    margin-top: 0px;
+    padding-left: 40px;
+    padding: 95px; 
 }
 
 .five_bg {
-    background-color: #10c9c3;
-    height: 200px;
-    padding-top: 70px;
+        background-color: #10c9c3;
+        height: 250px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 35px;
+        padding-right: 35px;
 }
 
 .card_img
@@ -154,21 +162,36 @@ padding-left: 650px;
 
 .form_style2
 {
-    margin-top: 30px;
+    padding: 10px;
+    padding-left: 95px;
 }
 
+.footer_style1
+{
+    padding: 40px;
+    padding-left: 90px;
+}
 
-
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: -15px;
+}
 
 .footer-style3
 {
-    padding: 30px;
+    padding: 0px;
 }
 
 .footer-style2
 {
-    padding: 40px;
+    padding: 10px;
+    padding-left: 80px;
 }
+
 
 .eleven_style
 {
