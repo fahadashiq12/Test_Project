@@ -6,39 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-
+<div class="container-fluid p-0">
 <!-- First SECTION-->
 <div class="first_bg">
- <div class="container-fluid">
-    <div class="row">
-
-
-        <div class="col-xl-4 col-lg-4 col-md-4">
-         <img  class="logo-style" src="/Img/logo.png">
-        </div>
-        <div class="col-xl-8 col-lg-8 col-md-8">
-          
-            <div class="navbar-nav">
-                <div class="row nav-style1" style="margin-left: 240px;">
-                <a href="#" class="nav-item nav-link nav-style">Home</a>
-                <a href="#" class="nav-item nav-link nav-style">About</a>
-                <a href="#" class="nav-item nav-link nav-style">Services</a>
-                <a href="#" class="nav-item nav-link nav-style">Courses</a>
-                <a href="#" class="nav-item nav-link nav-style">Classes</a>
-                <a href="#" class="nav-item nav-link nav-style">Quiz</a>
-                <a href="#" class="nav-item nav-link nav-style">Pages</a>
-                <a href="#" class="nav-item nav-link nav-style">Contact</a>
+    <div class="container-fluid">
+    <div class="">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brand">  <img  class="" src="/Img/logo.png"> </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link nav-style">Home</a>
+                    <a href="#" class="nav-item nav-link nav-style">About</a>
+                    <a href="#" class="nav-item nav-link nav-style">Services</a>
+                    <a href="#" class="nav-item nav-link nav-style">Courses</a>
+                    <a href="#" class="nav-item nav-link nav-style">Classes</a>
+                    <a href="#" class="nav-item nav-link nav-style">Quiz</a>
+                    <a href="#" class="nav-item nav-link nav-style">Pages</a>
+                    <a href="#" class="nav-item nav-link nav-style">Contact</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
             </div>
-           </div>
-        </div>
+        </nav>
     </div>
-    <div class="row first_sec">
+    <div class="row first_sec justify-content-center">
         <div class="col-xl-6 col-lg-6 col-md-6">
             <!-- <img class="img_style" src="/Img/Funny.jpg"> -->
         </div>
@@ -52,18 +54,18 @@
                 remaining essentially unchanged. It was popularised in the 1960s with the release of
                 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
                 like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <button class="btn_style"> Contact Us </button>
+            <button class="btn_style justify-content-center"> Contact Us </button>
         </div>
-    </div>
+     </div>
+  </div>
 </div>
-</div>
-
 
 <!-- Second SECTION-->
 <div class="bg-white">
 <div class="container-fluid">
-    <div class="row sec_style">
-        <h2 class="sec_style2"> About Us </h2>
+    <div class="row justify-content-center sec_style">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <h2 class=""> About Us </h2>      
         <p> 
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -72,19 +74,20 @@
             remaining essentially unchanged. It was popularised in the 1960s with the release of
             Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
             like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-            <div class="row signature_style">
+        </p>       
+            <div class="row justify-content-center">
                 <img src="/Img/signature.png">
-            </div>
+            </div>         
+        </div>
+      </div>
     </div>
-  
 </div>
 
 <!-- Third SECTION-->
 <div class="">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 progress_sec">
+            <div class="col-lg-6 col-md-6 col-sm-12 progress_sec">
                 <h3> Professional Skilss </h3>
                 <p> Solve Design </p>
                 <div class="progress">
@@ -111,8 +114,8 @@
                   </div>
 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img class="prof_style justify-content-center progress_pic" src="/Img/Card_Img.png">
             </div>
         </div>
     </div>
@@ -122,7 +125,7 @@
 <div class="five_bg">
     <div class="container-fluid">
         <div class="row">
-             <div class="col-lg-3">  
+             <div class="col-lg-3 col-md-3 col-sm-6">  
                 <div class="row box">
                     <div class="col-lg-3">
                         <img src="/Img/pe-7s-arc.png">                            
@@ -136,7 +139,7 @@
 
                 </div>    
              </div>
-             <div class="col-lg-3">
+             <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="row box">
                     <div class="col-lg-3">
                         <img src="/Img/pe-7s-magic-wand.png">                            
@@ -150,7 +153,7 @@
 
                 </div> 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="row box">
                     <div class="col-lg-3">
                         <img src="/Img/pe-7s-diamond.png">                            
@@ -164,7 +167,7 @@
 
                 </div> 
         </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="row box">
                     <div class="col-lg-3">
                         <img src="/Img/pe-7s-joy.png">                            
@@ -183,34 +186,34 @@
 </div>
 
 <!-- Five SECTION-->
-<div class="">
+<div class="five_background">
     <div class="container-fluid">
-        <div class="row no-gutters">
-           <div class="col-lg-3">
+        <div class="row">
+           <div class="col-lg-3 col-md-6 col-sm-6">
                <img class="card_img"src="/Img/Card_Img.png">
            </div> 
-           <div class="col-lg-3">
+           <div class="col-lg-3 col-md-6 col-sm-6">
             <img class="card_img" src="/Img/Card_Img.png">
            </div> 
-           <div class="col-lg-3">
+           <div class="col-lg-3 col-md-6 col-sm-6">
             <img class="card_img" src="/Img/Card_Img.png">
            </div>
-           <div class="col-lg-3">
+           <div class="col-lg-3 col-md-6 col-sm-6">
             <img class="card_img"  src="/Img/Card_Img.png">
             </div> 
         </div>
-        <div class="row no-gutters">
-            <div class="col-lg-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <img class="card_img" src="/Img/Card_Img.png">
             </div> 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <img class="card_img" src="/Img/Card_Img.png">
             </div> 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <img class="card_img" src="/Img/Card_Img.png">
             </div>
             
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <img class="card_img"  src="/Img/Card_Img.png">
              </div> 
          </div>
@@ -219,14 +222,14 @@
 
 
 <!-- Six SECTION-->
-<div class="">
-    <div class="container-fluid">
-        <div class="row six_style">
-            <h5> LOAD MORE WORK  </h5>
-        </div>
-        </div>
-</div>
-</div>
+<!-- <div class="container-fluid">
+    <div class="row justify-content-center">
+    <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
+            <h5 class="justify-content-center"> LOAD MORE WORK  </h5>
+    </div>
+    </div>
+</div> -->
+
 
 <!-- Seven SECTION-->
 <div class="">
@@ -245,11 +248,11 @@
         </div>
         <div class="row">
         <div class="col-lg-12">
-            <video class="video_style" width="900" height="500" controls>
+            <!-- <video class="video_style" width="900" height="500" controls>
                 <source src="movie.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
-              </video>
+              </video> -->
 
         </div>
         </div>
@@ -261,7 +264,7 @@
 <div class="">
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -276,7 +279,7 @@
                 </div>
             </div>
          </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -291,7 +294,7 @@
                 </div>
             </div>
          </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -306,9 +309,7 @@
                 </div>
             </div>
          </div>           
-    </div>
-    <div class="row">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -323,7 +324,7 @@
                 </div>
             </div>
          </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -338,7 +339,7 @@
                 </div>
             </div>
          </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
             <div class="p-5 enroll2">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -351,17 +352,20 @@
                     <p> Description is like something we need for. This is the desricption for the task we consume for it's need </p>
                 </div>
                 </div>
-            </div>
-         </div>           
+            </div>           
+         </div>
     </div>
-</div>
+  </div>
+ </div>
 </div>
 
 
 <!-- Nine SECTION-->
 <div class="nine_bg">
-    <div class="container">
-        <h5 class="txt_style2"> 
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+        <h5 class="txt_style2 justify-content-center"> 
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -373,30 +377,33 @@
        
     </div>
 </div>
+</div>
+</div>
 
 
 <!-- Ten SECTION-->
-<div class="">
 <div class="container-fluid">
     <div class="row ten_style">
-        <div class="col-2">
+        <div class="col-lg-1 ">
+        </div>
+        <div class="col-lg-2 col-md-6 ten_style">
             <img src="/Img/1.png">
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-6 ten_style">
             <img src="/Img/2.png">
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-6 ten_style">
             <img src="/Img/3.png">
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-6 ten_style">
             <img src="/Img/4.png">
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-6 ten_style">
              <img src="/Img/5.png">
         </div>
-    
+        <div class="col-lg-1">
+        </div>    
     </div>
-</div>
 </div>
 
 
@@ -404,13 +411,13 @@
 <div class="bg-light eleven_style">
 <div class="container-fluid">
    <div class="row justify-content-center">
-       <h3 class=""> Need for a Project? </h3> 
-   </div>
-   <div class="row justify-content-center">
-       <p>
+       <div class="col-lg-12 col-md-12 col-sm-12">
+       <h3 class="txt_style txt_style1"> Need for a Project? </h3> 
+       <p class="txt_style">
            Let us know if you're looking for a agency who is more interestedto grow their business.
             We need consultancy about the work we did
        </p>
+     </div>    
    </div>
     <div class="row form_style form_style2 justify-content-center">
     <form>
@@ -441,13 +448,13 @@
 <div class="bg-dark">
   <div class="container-fluid">
     <div class="row footer_style1">
-    <div class="col-lg-4 text-white">
+    <div class="col-lg-4 col-md-6 text-white">
         <div>
            <h3> Piroll Design, Inc  </h3>
            <p> @217 Copyrights. All Rights reserved Designed by robuiruk. </p>
         </div>
     </div>
-    <div class="col-lg-4 text-white">
+    <div class="col-lg-4 col-md-6 text-white">
         <div class="footer-style2">
            
                   <p> fahadashiq30@gmail.com </p>
@@ -455,7 +462,7 @@
               
         </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-md-12">
         <div class="row footer-style3">
         <div class="col-lg-4  text-white">  
             <list>
@@ -543,10 +550,13 @@
         </div>
     </div> 
 </div> -->
-
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>   
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html> 

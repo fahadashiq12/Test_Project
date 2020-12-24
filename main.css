@@ -5,7 +5,6 @@
 
   }
 
-
   .first_bg
   {
     background-image: url(/Img/blog-banner.png);
@@ -24,26 +23,21 @@
      font-family: Roboto-Medium !important;
  } 
 
-
  .six_style
  {
     padding-top: 20px;
     padding-left: 676px;    
  }
 
-
  .nav-style1
 {
-    margin-left: 235px;
+  margin-left: 235px;
 }
-
 
  .seven_style
  {
- 
-    text-align: center;
-    padding-top: 35px;
-
+   text-align: center;
+   padding-top: 35px;
  }
 
  .six_style h5
@@ -56,15 +50,15 @@
      font-family: Roboto-Regular !important;
  } 
 
+ 
 *{
     font-family: Roboto;
-}
+ }
 
 .firstext_style
 {
-  margin-top: 150px;
+    margin-top: 70px;
 }
-
 
 .btn_style
 {
@@ -77,9 +71,6 @@
 .nav-style
 {
     color: black;
-    padding: 15px;
-    padding-left: 15px;
-    margin: 15px;
 }
 
 
@@ -138,8 +129,8 @@ padding-left: 650px;
 
 .txt_style2 {
     color: white;
-    padding-top: 124px;
-    padding: 145px;
+    padding-top: 100px; 
+    padding: 145px; 
 }
 
 
@@ -186,6 +177,17 @@ padding-left: 650px;
     padding: 0px;
 }
 
+
+.bs-example{
+    margin: 20px;
+}
+
+.prof_style
+{
+   max-width: 100%;
+   max-height: 100%;
+}
+
 .footer-style2
 {
     padding: 10px;
@@ -206,16 +208,15 @@ padding-left: 650px;
     /* padding: 211px; */
 }
 
-.ten_style {
+.ten_style{    
     padding: 48px;
     margin-top: 10px;
-    padding-left: 15px;
+    padding-left: 130px;
+    padding-right: -27px;
 }
 
 .container-fluid {
     width: 100%;
-    padding-right: 1px !important; 
-    padding-left: 0px  !important;
     margin-right: auto;
     margin-left: auto;
 }
@@ -244,35 +245,162 @@ padding-left: 650px;
 
 @media (min-width: 1200px) and (max-width: 1600px)
 {
+    .ten_style {
+        padding: 48px;
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: -27px;
+    }
+
+    .footer-style2 {
+        padding: 0px;
+        padding-left: 20px;
+    }
+
+    
+
+    .eleven_style .txt_style2
+    {
+        padding-left: 150px;
+    }
+
+    .form_style {
+        padding-left: 50px;
+        margin-top: 55px;
+        padding-bottom: 60px;
+        /* padding: 211px; */
+    }
   
+    .eleven_style .txt_style1
+    {
+     padding-left: 630px;
+    }
+
+
+    .eleven_style .txt_style {
+        padding-left: 310px;
+    }
+
+    .txt_style
+    {
+
+        padding-left: 130px;
+    }
+
+    .txt_style1 {
+        padding-left: 630px;
+    }
+    
+
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px)
 {
-    .nav-style1 {
+
+    .eleven_style {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .nav-style1
+    {
         margin-left: 87px;
     }
 
-    .logo-style {
+    .logo-style
+    {
         margin-top: 31px;
         padding-left: 190px;
     }
 
-    .sec_style2 {
+    .sec_style2 
+    {
         padding-left: 500px;
     }
 
+    .progress_sec 
+    {
+        margin-top: 0px;
+        padding-left: 40px;
+        padding: 60px;
+    }
+
+    .ten_style {
+        padding: 48px;
+        margin-top: 10px;
+        padding-left: 35px;
+        padding-right: -27px;
+    }
+
+    .footer-style2 
+    {
+        padding: 10px;
+        padding-left: 10px;
+    }
+
+    .eleven_style .txt_style1 
+    {
+        padding-left: 375px;
+    }
+
+    .form_style 
+    {
+        padding-left: 50px;
+        margin-top: 50px;
+        padding-bottom: 60px;
+        /* padding: 211px; */
+    }
+
+    .eleven_style p     
+    {        
+    margin-top: 18px;
+    margin-bottom: 1rem;
+    }
 
 }
-
-
-
 
 @media (min-width: 768px) and (max-width: 991px)
 {
 
 
+    .ten_style 
+    {
+        padding: 48px;
+        margin-top: 10px;
+        padding-left: 80px;
+        padding-right: -27px;
+    }     
+
+    .nine_bg .txt_style2 {
+        color: white;
+        padding-top: 100px;
+        padding: 100px;
+    }
+
+
+    .progress_sec {
+        margin-top: 0px;
+        padding-left: 40px;
+        padding: 25px;
+    }
+
+    .txt_style
+    {
+        padding-left: 105px;
+    }
+
+    .txt_style1 {
+        padding-left: 230px;
+    }
+
+    .form_style {
+        padding-left: 50px;
+        margin-top: 70px;
+        padding-bottom: 60px;
+        /* padding: 211px; */
+    }
+   
 }
 
 
@@ -280,7 +408,57 @@ padding-left: 650px;
 
 @media (min-width: 576px) and (max-width: 767px)
 {
+       
 
+    .txt_style2 
+    {
+        color: white;
+        padding-top: 0px;
+        padding: 60px;
+    }
+
+    .progress_pic
+    {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 40px;
+    }
+
+    .five_bg {
+        background-color: #10c9c3;
+        height: 330px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .ten_style {
+        padding: 48px;
+        margin-top: 10px;
+        padding-left: 120px;
+        padding-right: -27px;
+    }  
+
+
+   .eleven_style .txt_style
+    {
+      padding-left: 50px;
+      text-align: center;
+    }
+
+
+    .form_style {
+        padding-left: 50px;
+        margin-top: 50px; 
+        padding-bottom: 60px;
+
+    }
+
+    .footer-style2 {
+        padding: 10px;
+        padding-left: 5px;
+    }
 
 }
 
