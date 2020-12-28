@@ -466,6 +466,12 @@ padding-left: 650px;
 @media (min-width: 0px) and (max-width: 575px)
 {
 
+    .txt_style2 {
+        color: white;
+        padding-top: 100px;
+        padding: 0;
+        padding-top: 100px;
+    }
 
 
 }
